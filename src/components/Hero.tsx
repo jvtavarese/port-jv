@@ -28,7 +28,7 @@ const Hero = () => {
                 alt={personalInfo.name}
                 width={160}
                 height={160}
-                className="object-cover w-full h-full"
+                className="object-cover w-full h-full object-[center_35%]"
                 priority
               />
             </div>

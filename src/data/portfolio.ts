@@ -113,6 +113,12 @@ export const education = {
 
 export const certifications = [
   {
+    name: "NVIDIA - Fundamentals of Deep Learning",
+    issuer: "NVIDIA",
+    date: "Novembro 2025",
+    credentialUrl: "https://drive.google.com/file/d/1MUMspsw9ud4YIbGcFPOOaplIvGxjeQ9f/view"
+  },
+  {
     name: "Microsoft Certified: Conceitos básicos da IA do Azure",
     issuer: "Microsoft",
     date: "Julho 2024",
