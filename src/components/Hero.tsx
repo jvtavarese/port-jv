@@ -3,6 +3,7 @@
 import { Github, Linkedin, Mail, MapPin, Phone } from "lucide-react";
 import { personalInfo } from "@/data/portfolio";
 import { motion } from "framer-motion";
+import Image from "next/image";
 
 const Hero = () => {
   return (
@@ -14,15 +15,22 @@ const Hero = () => {
           transition={{ duration: 0.6 }}
           className="text-center"
         >
-          {/* Profile Image Placeholder */}
+          {/* Profile Image */}
           <motion.div
             initial={{ scale: 0.8, opacity: 0 }}
             animate={{ scale: 1, opacity: 1 }}
             transition={{ delay: 0.2, duration: 0.5 }}
             className="mb-8 inline-block"
           >
-            <div className="w-40 h-40 rounded-full bg-gradient-to-br from-primary to-secondary mx-auto flex items-center justify-center text-white text-6xl font-bold shadow-2xl">
-              {personalInfo.name.split(" ").map(n => n[0]).join("").slice(0, 2)}
+            <div className="w-40 h-40 rounded-full overflow-hidden mx-auto shadow-2xl ring-4 ring-primary/20">
+              <Image
+                src="/profile.jpg"
+                alt={personalInfo.name}
+                width={160}
+                height={160}
+                className="object-cover w-full h-full"
+                priority
+              />
             </div>
           </motion.div>
 

@@ -44,7 +44,7 @@ export const projects = [
     description: "Aplicação web para gestão completa de torneios de beach tennis com cadastro, inscrições, geração de chaves e acompanhamento de partidas em tempo real.",
     technologies: ["Vue 3", "TypeScript", "AWS Lambda", "DynamoDB", "Amazon Cognito", "API Gateway"],
     category: "Full-Stack",
-    github: "https://github.com/jvtesteves",
+    github: "https://github.com/jvtesteves/bt-tourney-master",
     highlights: ["Arquitetura Serverless", "Autenticação AWS Cognito", "Sistema de Chaves Automatizado"]
   },
   {
@@ -52,7 +52,7 @@ export const projects = [
     description: "Bot para Telegram que recebe áudio MP3, transcreve utilizando Whisper e gera resumos via OpenAI API.",
     technologies: ["Python", "Telegram API", "Whisper", "OpenAI API"],
     category: "IA/ML",
-    github: "https://github.com/jvtesteves",
+    github: "https://github.com/jvtesteves/logos_ai_mvp",
     highlights: ["Transcrição de Áudio", "Sumarização com IA", "Integração Telegram"]
   },
   {
@@ -60,16 +60,24 @@ export const projects = [
     description: "Simulação de Network Slicing em redes 5G com mobilidade, incluindo análise de métricas de Quality of Service (QoS).",
     technologies: ["Python", "Análise de Dados", "Simulação de Redes"],
     category: "Pesquisa",
-    github: "https://github.com/jvtesteves",
+    github: "https://github.com/jvtesteves/5GNetworkMobilitySim",
     highlights: ["Network Slicing", "Análise QoS", "Simulação 5G"]
   },
   {
-    name: "Projetos de Machine Learning",
-    description: "Conjunto de projetos acadêmicos envolvendo regressão, classificação, redes neurais e técnicas avançadas de ML.",
-    technologies: ["Python", "Scikit-learn", "TensorFlow", "PyTorch", "XGBoost", "YOLOv8"],
+    name: "Face Recognition System",
+    description: "Sistema de reconhecimento facial utilizando deep learning com FaceNet e MTCNN para detecção e identificação de rostos.",
+    technologies: ["Python", "TensorFlow", "FaceNet", "MTCNN", "OpenCV"],
     category: "IA/ML",
-    github: "https://github.com/jvtesteves",
-    highlights: ["Visão Computacional", "Análise Preditiva", "Deep Learning"]
+    github: "https://github.com/jvtesteves/face_recognition_system",
+    highlights: ["Reconhecimento Facial", "Deep Learning", "Detecção em Tempo Real"]
+  },
+  {
+    name: "Papers & Artigos Acadêmicos",
+    description: "Repositório com trabalhos científicos e artigos desenvolvidos durante a graduação em Engenharia de Computação.",
+    technologies: ["LaTeX", "Python", "Pesquisa Científica"],
+    category: "Pesquisa",
+    github: "https://github.com/jvtesteves/Papers-Artigos",
+    highlights: ["Publicações Científicas", "Análise de Dados", "Documentação Técnica"]
   }
 ];
 
@@ -108,13 +116,14 @@ export const certifications = [
     name: "Microsoft Certified: Conceitos básicos da IA do Azure",
     issuer: "Microsoft",
     date: "Julho 2024",
-    credentialUrl: "#"
+    credentialUrl: "https://drive.google.com/file/d/1Dm5tq0qYi_oKHSDH_DlKuUcpK0eBWgiQ/view"
   },
   {
     name: "Santander Coders 2023 - Full-Stack",
     issuer: "Ada Tech / Santander",
     date: "Novembro 2023",
-    hours: "324h"
+    hours: "324h",
+    credentialUrl: "https://drive.google.com/file/d/1kWMaesSJ6T0SYqrk5NVxVMEWNp6w_YEI/view"
   }
 ];
 
