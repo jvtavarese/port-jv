@@ -4,8 +4,8 @@ export const personalInfo = {
   location: "Fortaleza, Brasil",
   email: "jvtavarese@gmail.com",
   phone: "+55 85 99280-4703",
-  linkedin: "joaovtesteves",
-  github: "jvtesteves",
+  linkedin: "jvtavarese",
+  github: "jvtavarese",
   bio: "Estudante de Engenharia de Computação (10º período) na UFC, com forte interesse em desenvolvimento de software, análise de dados e Machine Learning. Experiência em criar soluções de IA, automações e aplicações web escaláveis. Busco oportunidades para aplicar minhas habilidades técnicas em projetos desafiadores.",
 };
 
@@ -44,7 +44,7 @@ export const projects = [
     description: "Aplicação web para gestão completa de torneios de beach tennis com cadastro, inscrições, geração de chaves e acompanhamento de partidas em tempo real.",
     technologies: ["Vue 3", "TypeScript", "AWS Lambda", "DynamoDB", "Amazon Cognito", "API Gateway"],
     category: "Full-Stack",
-    github: "https://github.com/jvtesteves/bt-tourney-master",
+    github: "https://github.com/jvtavarese/bt-tourney-master",
     highlights: ["Arquitetura Serverless", "Autenticação AWS Cognito", "Sistema de Chaves Automatizado"]
   },
   {
@@ -52,7 +52,7 @@ export const projects = [
     description: "Bot para Telegram que recebe áudio MP3, transcreve utilizando Whisper e gera resumos via OpenAI API.",
     technologies: ["Python", "Telegram API", "Whisper", "OpenAI API"],
     category: "IA/ML",
-    github: "https://github.com/jvtesteves/logos_ai_mvp",
+    github: "https://github.com/jvtavarese/logos_ai_mvp",
     highlights: ["Transcrição de Áudio", "Sumarização com IA", "Integração Telegram"]
   },
   {
@@ -60,7 +60,7 @@ export const projects = [
     description: "Simulação de Network Slicing em redes 5G com mobilidade, incluindo análise de métricas de Quality of Service (QoS).",
     technologies: ["Python", "Análise de Dados", "Simulação de Redes"],
     category: "Pesquisa",
-    github: "https://github.com/jvtesteves/5GNetworkMobilitySim",
+    github: "https://github.com/jvtavarese/5GNetworkMobilitySim",
     highlights: ["Network Slicing", "Análise QoS", "Simulação 5G"]
   },
   {
@@ -68,7 +68,7 @@ export const projects = [
     description: "Sistema de reconhecimento facial utilizando deep learning com FaceNet e MTCNN para detecção e identificação de rostos.",
     technologies: ["Python", "TensorFlow", "FaceNet", "MTCNN", "OpenCV"],
     category: "IA/ML",
-    github: "https://github.com/jvtesteves/face_recognition_system",
+    github: "https://github.com/jvtavarese/face_recognition_system",
     highlights: ["Reconhecimento Facial", "Deep Learning", "Detecção em Tempo Real"]
   },
   {
@@ -76,7 +76,7 @@ export const projects = [
     description: "Repositório com trabalhos científicos e artigos desenvolvidos durante a graduação em Engenharia de Computação.",
     technologies: ["LaTeX", "Python", "Pesquisa Científica"],
     category: "Pesquisa",
-    github: "https://github.com/jvtesteves/Papers-Artigos",
+    github: "https://github.com/jvtavarese/Papers-Artigos",
     highlights: ["Publicações Científicas", "Análise de Dados", "Documentação Técnica"]
   }
 ];
