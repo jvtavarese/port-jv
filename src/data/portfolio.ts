@@ -138,3 +138,26 @@ export const languages = [
   { name: "Inglês", level: "Avançado", note: "Experiência internacional de 2 meses no Canadá" },
   { name: "Francês", level: "Básico" }
 ];
+
+export const softSkills = [
+  {
+    name: "Comunicação Eficaz",
+    description: "Aprimorada em treinamentos de oratória e na vivência internacional no Canadá, desenvolvendo clareza e credibilidade ao falar."
+  },
+  {
+    name: "Liderança e Motivação",
+    description: "Fortalecidas no treinamento Dale Carnegie, aprendendo a reconhecer realizações, influenciar positivamente e inspirar equipes."
+  },
+  {
+    name: "Gerenciamento de Estresse e Resiliência",
+    description: "Fundamentado em técnicas para lidar com pressões e manter alto desempenho em ambientes desafiadores."
+  },
+  {
+    name: "Construção de Relacionamentos",
+    description: "Foco em cooperação, fortalecimento de laços e empatia, contribuindo para um ambiente de trabalho saudável."
+  },
+  {
+    name: "Entusiasmo e Influência Positiva",
+    description: "Aplicando estratégias de engajamento para manter o ânimo e incentivar a colaboração entre colegas."
+  }
+];
