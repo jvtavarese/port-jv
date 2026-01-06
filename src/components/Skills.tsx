@@ -21,20 +21,14 @@ const Skills = () => {
               <Code className="text-primary" size={32} />
               <h3 className="text-xl font-bold text-gray-900">Linguagens</h3>
             </div>
-            <div className="space-y-3">
+            <div className="flex flex-wrap gap-2">
               {skills.languages.map((lang) => (
-                <div key={lang.name}>
-                  <div className="flex justify-between mb-1">
-                    <span className="text-gray-700 font-medium">{lang.name}</span>
-                    <span className="text-primary text-sm">{lang.level}%</span>
-                  </div>
-                  <div className="w-full bg-gray-200 rounded-full h-2">
-                    <div
-                      className="bg-gradient-to-r from-primary to-accent h-2 rounded-full transition-all duration-500"
-                      style={{ width: `${lang.level}%` }}
-                    ></div>
-                  </div>
-                </div>
+                <span
+                  key={lang}
+                  className="px-3 py-1 bg-blue-100 text-primary rounded-full text-sm font-medium hover:bg-blue-200 transition-colors"
+                >
+                  {lang}
+                </span>
               ))}
             </div>
           </div>

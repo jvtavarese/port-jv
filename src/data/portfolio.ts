@@ -75,12 +75,7 @@ export const projects = [
 
 export const skills = {
   languages: [
-    { name: "Python", level: 90 },
-    { name: "JavaScript", level: 85 },
-    { name: "TypeScript", level: 80 },
-    { name: "Java", level: 75 },
-    { name: "C/C++", level: 70 },
-    { name: "SQL", level: 80 }
+    "Python", "JavaScript", "TypeScript", "Java", "C/C++", "SQL"
   ],
   frameworks: [
     "Vue.js", "React", "Next.js", "Spring Boot", "Flask", "Streamlit"
